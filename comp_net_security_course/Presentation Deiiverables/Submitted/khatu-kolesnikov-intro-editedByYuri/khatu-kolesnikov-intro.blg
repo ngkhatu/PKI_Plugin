@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: khatu-kolesnikov-intro.aux
+The style file: abbrv.bst
+Database file #1: papers.bib
+Name 1 in "E. Topalovic, B. Saeta, L.S. Huang, C. Jackson, and D. Boneh" has a comma at the end for entry topalovicShortLivedCerts
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "E. Topalovic, B. Saeta, L.S. Huang, C. Jackson, and D. Boneh" for entry topalovicShortLivedCerts
+while executing---line 1049 of file abbrv.bst
+Name 1 in "E. Topalovic, B. Saeta, L.S. Huang, C. Jackson, and D. Boneh" has a comma at the end for entry topalovicShortLivedCerts
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "E. Topalovic, B. Saeta, L.S. Huang, C. Jackson, and D. Boneh" for entry topalovicShortLivedCerts
+while executing---line 1090 of file abbrv.bst
+Warning--empty booktitle in roosaTrustDarknet
+Warning--can't use both volume and number fields in roosaTrustDarknet
+Warning--empty year in roosaTrustDarknet
+Warning--empty booktitle in ross2005strongerauthen
+Warning--empty journal in wilson2008public
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            680 strings with 9476 characters,
+and the built_in function-call counts, 12131 in all, are:
+= -- 1217
+> -- 500
+< -- 24
++ -- 201
+- -- 166
+* -- 747
+:= -- 1853
+add.period$ -- 105
+call.type$ -- 31
+change.case$ -- 176
+chr.to.int$ -- 0
+cite$ -- 36
+duplicate$ -- 549
+empty$ -- 1007
+format.name$ -- 166
+if$ -- 2729
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 30
+newline$ -- 157
+num.names$ -- 60
+pop$ -- 241
+preamble$ -- 1
+purify$ -- 146
+quote$ -- 0
+skip$ -- 406
+stack$ -- 0
+substring$ -- 701
+swap$ -- 203
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 121
+warning$ -- 5
+while$ -- 117
+width$ -- 33
+write$ -- 348
+(There were 4 error messages)

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: khatu-kolesnikov-relwork.aux
+The style file: abbrv.bst
+Database file #1: papers.bib
+Warning--empty booktitle in roosaTrustDarknet
+Warning--can't use both volume and number fields in roosaTrustDarknet
+Warning--empty year in roosaTrustDarknet
+Warning--empty booktitle in ross2005strongerauthen
+Warning--empty journal in wilson2008public
+Warning--empty journal in wu2006securitytoolbars
+You've used 30 entries,
+            2118 wiz_defined-function locations,
+            672 strings with 9193 characters,
+and the built_in function-call counts, 11788 in all, are:
+= -- 1185
+> -- 510
+< -- 21
++ -- 202
+- -- 170
+* -- 742
+:= -- 1827
+add.period$ -- 103
+call.type$ -- 30
+change.case$ -- 175
+chr.to.int$ -- 0
+cite$ -- 36
+duplicate$ -- 517
+empty$ -- 953
+format.name$ -- 170
+if$ -- 2624
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 30
+newline$ -- 153
+num.names$ -- 60
+pop$ -- 233
+preamble$ -- 1
+purify$ -- 145
+quote$ -- 0
+skip$ -- 380
+stack$ -- 0
+substring$ -- 678
+swap$ -- 184
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 118
+warning$ -- 6
+while$ -- 115
+width$ -- 32
+write$ -- 337
+(There were 6 warnings)

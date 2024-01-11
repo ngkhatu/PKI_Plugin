@@ -1,0 +1,192 @@
+Total Number of Sub Authorities: 38
+host: lh4.googleusercontent.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: googleads.g.doubleclick.net
+commonName: *.g.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: clients1.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: www.facebook.com
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+
+host: fbexternal-a.akamaihd.net
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+
+host: pixel.facebook.com
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+
+host: fbstatic-a.akamaihd.net
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+
+host: accounts.google.com
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: accounts.youtube.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: mail.google.com
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: s-static.ak.facebook.com
+commonName: s-static.ak.facebook.com
+organization: s-static.ak.facebook.com
+organizationalUnit: s-static.ak.facebook.com
+
+host: www.yelp.com
+commonName: *.yelp.com
+organization: *.yelp.com
+organizationalUnit: Domain Control Validated
+
+host: s3-media2.ak.yelpcdn.com
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+
+host: s3-media4.ak.yelpcdn.com
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+
+host: s3-media3.ak.yelpcdn.com
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+
+host: s3-media1.ak.yelpcdn.com
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+
+host: ssl.google-analytics.com
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+
+host: secure-us.imrworldwide.com
+commonName: *.imrworldwide.com
+organization: *.imrworldwide.com
+organizationalUnit: GT17759042
+
+host: connect.facebook.net
+commonName: connect.facebook.net
+organization: Facebook
+organizationalUnit: connect.facebook.net
+
+host: sb.scorecardresearch.com
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+
+host: ajax.googleapis.com
+commonName: *.googleapis.com
+organization: Google Inc
+organizationalUnit: 
+
+host: twimg0-a.akamaihd.net
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+
+host: platform.twitter.com
+commonName: si0.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: 
+
+host: twitter.com
+commonName: twitter.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+
+host: abs.twimg.com
+commonName: si0.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: 
+
+host: www.google.com
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: login.yahoo.com
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+
+host: s.yimg.com
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: csc.beap.bc.yahoo.com
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: us.bc.yahoo.com
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: ak1s.abmr.net
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+
+host: sb.voicefive.com
+commonName: *.voicefive.com
+organization: TMRG
+organizationalUnit: OSE
+
+host: api.instagram.com
+commonName: api.instagram.com
+organization: api.instagram.com
+organizationalUnit: GT86575965
+
+host: hypem.com
+commonName: hypem.com
+organization: hypem.com
+organizationalUnit: Domain Control Validated
+
+host: secure.imdb.com
+commonName: secure.imdb.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+
+host: apis.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: plusone.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: sfileserver.glam.com
+commonName: *.glam.com
+organization: Glam Media
+organizationalUnit: Akamai Wildcard SSL
+
+

@@ -1,0 +1,193 @@
+Largest CA Chain has 3 elements
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.g.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+Chain Length: 2
+
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+Chain Length: 2
+
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: s-static.ak.facebook.com
+organization: s-static.ak.facebook.com
+organizationalUnit: s-static.ak.facebook.com
+Chain Length: 3
+
+commonName: *.yelp.com
+organization: *.yelp.com
+organizationalUnit: Domain Control Validated
+Chain Length: 3
+
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+Chain Length: 3
+
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+Chain Length: 3
+
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+Chain Length: 3
+
+commonName: *.ak.yelpcdn.com
+organization: Yelp
+organizationalUnit: Systems
+Chain Length: 3
+
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.imrworldwide.com
+organization: *.imrworldwide.com
+organizationalUnit: GT17759042
+Chain Length: 3
+
+commonName: connect.facebook.net
+organization: Facebook
+organizationalUnit: connect.facebook.net
+Chain Length: 3
+
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+Chain Length: 3
+
+commonName: *.googleapis.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: a248.e.akamai.net
+organization: Akamai Technologies, Inc.
+organizationalUnit: 
+Chain Length: 2
+
+commonName: si0.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: twitter.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+Chain Length: 3
+
+commonName: si0.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+Chain Length: 3
+
+commonName: *.voicefive.com
+organization: TMRG
+organizationalUnit: OSE
+Chain Length: 3
+
+commonName: api.instagram.com
+organization: api.instagram.com
+organizationalUnit: GT86575965
+Chain Length: 3
+
+commonName: hypem.com
+organization: hypem.com
+organizationalUnit: Domain Control Validated
+Chain Length: 3
+
+commonName: secure.imdb.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.glam.com
+organization: Glam Media
+organizationalUnit: Akamai Wildcard SSL
+Chain Length: 3
+
+

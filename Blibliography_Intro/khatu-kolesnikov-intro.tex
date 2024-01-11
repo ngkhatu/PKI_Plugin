@@ -1,0 +1,76 @@
+\documentclass[10pt,twocolumn,pdftex]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
+            linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{times}
+%\usepackage{listings}
+%\usepackage{fancyvrb}
+%\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+
+%\lstset{ % for our code environment
+%    language={},
+%    basicstyle=\ttfamily}
+%\let\code\lstinline
+
+\title{SSL Security in Browser plug-in: Managing the list of CAs}
+\author{Nikhil Khatu, Yuri Kolesnikov \\
+\url{{ngkhatu, ykolesn}@ncsu.edu}}
+\date{4/2/2013}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Public Key Infrastructure (PKI) is trusted by web browsers for SSL security. A ubiquitous list of root CAs forms the default basis of trust within the Web Browser of the average consumer. Sub-authorities are allowed to sign for authenticity on behalf of their root CAs.  This has the result of producing an overgrown network of seemingly trusted nodes, some of which shouldn't be trusted. We propose maintaining a separate list of personally trusted Certificate Authorities via a developed browser plugin.  The list is populated by prompting the user to "accept" a CA that is not already present the list, eventually eliminating the need for acceptance prompts. By maintaining a user created list, we can abate the risk of trusting less ubiquitous CAs. After development we sample the users' CA profiles from the plugin. Each user will have a certain number of trusted CAs in their list from day to day browsing. The list will vary from user to user. The reduced number of CAs in these lists has a correlation with the risk abated. By default browsers trust many more CAs than are actually required by the average user.
+\end{abstract}
+
+\section{Introduction}
+A root certificate authority (CA) list is the basis for remote security in today's web browsers.  The PKI requires the list be maintained in a local file by either the operating system or the browser itself. While there are several security flaws inherently present when using CAs with any Public Key Infrastructure one must also be wary of the trust model.\cite{ellison2000ten} Our current Oligarchy PKI model leverages the use of trust anchors, where a certificate issued by any one of the trust anchors is accepted.\cite{kaufman2002network} With the use of CA chains a trust anchor, or root CA, can vouch for other sub-authorities who can then vouch for even more sub-authorities. The web browser confirms the authenticity and trustworthiness of this chain by checking the validity of each signature in the chain up to the root CA.  If the root CA matches an entry in the browser’s trusted CA list, the website’s certificate is considered validated by the browser.  The increased presence of sub-authorities combined with the average internet user's inherent trust in the browser's handling of certificate validation increase the probability of compromise in the system. A compromised sub-authority can be used to forge certificates for fraudulent websites claiming to be legitimate.  An example would be an attacker using a fraudulent certificate to present a forged bank login page to a user during a man in the middle attack. 
+
+Several PKI trust models have been proposed; mostly rooting from monopolistic, oligarchic, anarchic, and constraining CAs to a particular subset.\cite{kaufman2002network} However there has not been much initiative to mold and constrain PKI. The monopolistic model anchors too much trust at a central authority, while an anarchic PKI model is only as great as its weakest node. The anarchic model is bound to degrade once the CA market saturates. Our current PKI model allows CAs to profit and there is little incentive to drive change.
+
+Assuming the PKI model remains relatively static we propose enhancing the browser’s CA validation functionality.  The solution is implemented as a browser plugin which allows the user to assign the level of trust given to a new sub-authority during initial access of a secured site. If the user decides to trust the sub authority, the entry is stored in a separate sub-authority database maintained by the plugin.
+
+According to the SSL Observatory project, Mozilla’s Firefox browser stores 124 trusted CAs.  Microsoft’s built in Windows CA database, used by Google’s Chrome browser and Internet Explorer, typically has over 300 certificates through updates.  This large number of trusted CAs leads to a recorded 1,377,067 valid leaf certificates. \cite{SSLobservatory}  The new list of sub-authorities that is derived from using our plugin aims to greatly reduce the number of valid sub-authorities trusted by the average internet user.  The list eventually grows large enough to provide a seamless experience for daily web browsing.  The final lists collected during our plugin evaluation also allow us to draw comparisons to the default size of Mozilla and Microsoft’s default CA directories.  Our plugin approach is also advantageous in allowing the user to have a more hands-on experience with their browser security settings.  In an area where most browser security settings are developed to be as automated and out of sight as possible, our plugin serves to expose and educate the user on the risks and vulnerabilities behind the simplistic "green lock" icon in their address bar. 
+
+
+
+
+
+%\newpage
+\hspace{1em}
+%\newpage
+
+\section{Related Work}
+
+There are many works published on securing SSL in infrastructure. The Related works section is divided into the following sections: Phishing and Browser related User Vulnerabilities, PKI Trust Infrastructure, and SSL protocol Vulnerabilities.
+
+\subsection{PKI Trust Infrastructure}
+
+Public Key Infrastructures (PKI) depends on a reliable method of authentication.  One such method is used in the Secure Sockets Layer (SSL), where Certificate Authorities are used to verify a website's signature, and thus confirm the authenticity of the website providing the signature.  The Achilies heel of any remote system is the Man in the Middle Attack. On trusting CA roots; it is possible to pose as a MITM and insert a certificate signed by a different root CA, but still be trusted by the browser due to the browser trusting multiple roots. \cite{hayesMasquarading}  It is also possible to compromise a root CA, and thus make it sign many fraudulent child certificates. \cite{park2012web} One solution to the multiple CA root CAs can possibly be addressed by short lived certificates at the cost of performance. \cite{topalovicShortLivedCerts} Roosa et al studied the structural defects and lessons learned overthe lifetime of the CA trust model. \cite{roosaTrustDarknet} 
+
+The security of SSL enabled applications is heavily dependent on securing current Public Key Infrastructure and the trust of Certification Authorities (CA). Three basic PKI models include PKIX(x.509), SPKI, and PGP.\cite{josang2000pki}\cite{kent1998evaluating} The trust and reliance on a browser's CA database is a major point of failure, and a popular topic for research. \cite{kent1998evaluating}In Josang et al Trust Management in PKI is the exclusive focus to benefit from SSL security.\cite{josang2000pki}  Since the PKI is commercialized, the low barriers to entry leave the system vulnerable to new untrusted Certification Authorities entering the market.\cite{ellison2000ten} It is important for any party trusting a CA to analyze various properties of the Certificate; certificate type, security risks of the key holder, certificate and organizaiton of CA. \cite{zhang2010improved} Various models from Anarchical to Hierarchical have been proposed to better manage the infrastructure.\cite{kaufman2002network} While current PKI remains mostly pessimistic in regards to trusting commercial entities Wilson et al remains optimistic and even suggest building a "Superstructure" with existing mature PKI to improve utility and practicallity of Digital Certificates.\cite{wilson2008public} NIST provides documentation on current implementations.\cite{kuhn2001introduction} Slagell et al adapt existing PKI protocols to solve scalability issues  \cite{slagell2004pki}  Current research is also being done on the exchanging of signed certificates without the use of CAs. \cite{sharifiVeriKey}
+
+
+
+\subsection{Browser Vulnerabilities and Phishing}
+Even if CAs are secure, most novice users are susceptible to what is known as a Man In The Middle (MITM) Phishing attack where the attacker can display spoofed login forms to the user.  Therefore it is important to consider this style of attack and the presence of novice security users when designing a plugin to improve the browser's CA database.  Phishing is generally executed in an unsophisticated manner, many users do not make the effort to check things as simple as being at the correct URL before entering sensitive information.  \cite{dhamija2006phishing} \cite{raffetseder2007building} The “Yahoo! sign-in seal” allows users to personalize the image used during sign in which will be used as a security seal.\cite{agarwal2007phishing} Several solutions to phishing attacks in the form of browser plugins have been proposed.  Most early anti phishing plugins attempt to prevent the user from accessing a spoofed website through the confirmation of a website's certificate.  Once the certificate is confirmed, the user is clearly informed that they are on a legitimate website.   \cite{joshiPhishguardPlugin} \cite{biddle2009browser} \cite{mahmood2006Plugin} \cite{upadhyayaPlugin} \cite{maurerShiningChrome} \cite{ye2005trusted} Other plugins such as SpoofGuard analyze the HTML POST request from the user to determine the authenticity of a website.  SpoofGuard then displays a warning message when an invalid website is detected. \cite{chou2004client}
+ Most confirmation message related toolbars are ineffective due to the fact that most internet users do not understand phishing attacks, and do not comprehend how complex they can be.  Users simply fail to pay attention to even the most clear warnings \cite{wu2006security} A complex learning approach, similar to our more simple CA database learning plugin, was proposed by Sharifi et al.  \cite{sharifiPersonalizedSecurity} The system works by monitoring user habits such as ignoring certificate warnings.  The system will then either automatically choose to ignore such warnings, or prompt the user with a more thorough explanation of their risky behavior. 
+
+The next generation of phishing attacks will prove to be more sophisticated than current attacks strictly focused on collecting personal information.  Due to current SSL technology being a one-way, server to user, system, a MITM attacker can now authenticate credentials in real time and present a seemingly valid phishing site to the user.  Hashing of the user’s password with the website’s public key can be used to prevent these types of attacks. \cite{joshiMitigatingMITM}  A hashing plugin is originally described in PwdHash, where a browser plugin hashes the user’s password with the website’s domain name, thus making the password hashed password useless for other websites. \cite{ross2005strongerauthen}
+
+\subsection{SSL Vulnerabilities}
+
+PKI infrastructure heavily relies on the security of the SSL Application Layer protocol and handshaking used to trade public and session keys it worth mentioning that there are various studies on strengthing the protocol. SSL by itself is a secure protocol, when used in conjunction with PKI vulnerabilities are exposed. There is a proposal to authenticate the user to avoid MITM attacks. Since SSL security is usually one way (server to user) Herzberg et al. propose a system, TPL, in which a certificate authority authenticates the user. \cite{herzberg2000access} Another is a Scheme to improve the security of SSL - \cite{huawei2009scheme}\cite{soghoian2012certified}
+
+
+
+\newpage
+\bibliographystyle{abbrv}
+\bibliography{papers}
+
+\end{document}

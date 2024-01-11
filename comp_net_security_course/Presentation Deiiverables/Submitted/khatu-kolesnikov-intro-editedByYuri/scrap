@@ -1,0 +1,14 @@
+Area(Topic of Work):
+Trusting PKI infrastructure for SSL security in web browsers.
+Problem(What's the issue):
+The ubiquitious CAs are trusted by default within the Web Browser of the average consumer. This has the result of producing an overgrown network of seemingly trusted nodes, some of which shouldn't be trusted.
+Solution(how do you propose to address the problem):
+By maintaining a list of personally trusted Certificate Authorities via a developed browser plugin we can abate the risk of trusting less ubiquitous CAs.
+Methodology(Whats the experiment):
+After developing the plugin we sample the users using our plugin. Each user will have a certain # of trusted CAs in their list from day to day browsing. The list will vary from user to user.
+Results(What did you find?):
+The reduced number of CAs in the list has a correlation with the risk abated.
+Take Away(Lesson):
+By default browsers trust many more CAs than are actually required by the average user.
+
+

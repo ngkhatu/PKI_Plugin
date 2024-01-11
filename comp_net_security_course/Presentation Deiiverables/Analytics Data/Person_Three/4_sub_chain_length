@@ -1,0 +1,403 @@
+Largest CA Chain has 4 elements
+
+commonName: www.dinersclubnorthamerica.com
+organization: Diners Club International Ltd.
+organizationalUnit: AMS
+Chain Length: 3
+
+commonName: dinersclubcanada.com
+organization: Diners Club International Ltd.
+organizationalUnit: AMS
+Chain Length: 3
+
+commonName: csvtr12.dinersclubcanada.com
+organization: Diners Club International Ltd.
+organizationalUnit: ebusiness, Corporate Marketing
+Chain Length: 3
+
+commonName: www.bmo.com
+organization: Bank of Montreal
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+Chain Length: 3
+
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+Chain Length: 4
+
+commonName: sofa.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: IMRA Cert Admin
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www.thankyou.com
+organization: Citigroup Inc.
+organizationalUnit: Citi Cards Internet Services
+Chain Length: 3
+
+commonName: TYECHO.EPSILON.COM
+organization: Epsilon Data Management, LLC
+organizationalUnit: 
+Chain Length: 3
+
+commonName: view.atdmt.com
+organization: 
+organizationalUnit: 
+Chain Length: 4
+
+commonName: metrics1.citibank.com
+organization: Citigroup Inc
+organizationalUnit: Citi Cards Internet Service
+Chain Length: 3
+
+commonName: secure.leadback.advertising.com
+organization: AOL Advertising, Inc
+organizationalUnit: IS
+Chain Length: 3
+
+commonName: s.amazon-adsystem.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: online.citibank.com
+organization: Citigroup Inc.
+organizationalUnit: Web Hosting Group
+Chain Length: 3
+
+commonName: mpsnare.iesnare.com
+organization: iovation, Inc.
+organizationalUnit: 
+Chain Length: 4
+
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+Chain Length: 3
+
+commonName: chat.online.citi.com
+organization: Citigroup Inc.
+organizationalUnit: Citigroup Inc.
+Chain Length: 3
+
+commonName: r.turn.com
+organization: Turn Inc.
+organizationalUnit: r.turn.com
+Chain Length: 3
+
+commonName: secure2.homedepot.com
+organization: THE HOME DEPOT,INC.
+organizationalUnit: OnlineIT
+Chain Length: 3
+
+commonName: nexus.ensighten.com
+organization: Ensighten, LLC
+organizationalUnit: Terms of use at www.verisign.com/rpa (c)05
+Chain Length: 3
+
+commonName: sadmin.brightcove.com
+organization: Brightcove Inc.
+organizationalUnit: Engineering
+Chain Length: 3
+
+commonName: cts-secure.channelintelligence.com
+organization: Channel Intelligence
+organizationalUnit: Information Technology
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: swasc.homedepot.com
+organization: Home Depot
+organizationalUnit: eBusiness
+Chain Length: 3
+
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: SALES.LIVEPERSON.NET
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+Chain Length: 3
+
+commonName: *.cloudfront.net
+organization: Amazon.com, Inc.
+organizationalUnit: 
+Chain Length: 4
+
+commonName: Sr2.liveperson.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+Chain Length: 3
+
+commonName: va.marketer.lpsnmedia.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+Chain Length: 3
+
+commonName: va.content.lpsnmedia.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.tapad.com
+organization: Tapad, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.pointroll.com
+organization: Pointroll Inc.
+organizationalUnit: IT
+Chain Length: 4
+
+commonName: *.twitter.com
+organization: *.twitter.com
+organizationalUnit: GT57932074
+Chain Length: 3
+
+commonName: www.lowes.com
+organization: Lowe's Companies Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www7.lowes.com
+organization: Lowes Home Centers Inc
+organizationalUnit: Information Security
+Chain Length: 4
+
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+Chain Length: 4
+
+commonName: akamai.mathtag.com
+organization: Mediamath
+organizationalUnit: Mediamath
+Chain Length: 3
+
+commonName: bs.serving-sys.com
+organization: MediaMind Technologies Inc.
+organizationalUnit: OnlineIT
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: r.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+Chain Length: 4
+
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+Chain Length: 4
+
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 4
+
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+Chain Length: 3
+
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 4
+
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 4
+
+commonName: c5.ah.yahoo.com
+organization: Yahoo  Inc.
+organizationalUnit: Yahoo
+Chain Length: 2
+
+commonName: www.delta.com
+organization: Delta Air Lines, Inc.
+organizationalUnit: Information Technology
+Chain Length: 3
+
+commonName: *.yieldoptimizer.com
+organization: *.yieldoptimizer.com
+organizationalUnit: Domain Control Validated
+Chain Length: 3
+
+commonName: content.delta.com
+organization: Delta Air Lines, Inc
+organizationalUnit: Information Technology
+Chain Length: 3
+
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+Chain Length: 4
+
+commonName: by.essl.optimost.com
+organization: Optimost LLC
+organizationalUnit: 
+Chain Length: 3
+
+commonName: smetrics.delta.com
+organization: Delta Air Lines, Inc.
+organizationalUnit: Information Technology
+Chain Length: 3
+
+commonName: *.baynote.net
+organization: Baynote, Inc.
+organizationalUnit: 
+Chain Length: 4
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.usairways.com
+organization: US Airways
+organizationalUnit: csmusairwayweb
+Chain Length: 3
+
+commonName: content.usairways.com
+organization: US Airways
+organizationalUnit: Corporate headquarters
+Chain Length: 3
+
+commonName: *.hs.llnwd.net
+organization: Limelight Networks
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.112.2o7.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Adobe Marketing Cloud
+Chain Length: 4
+
+

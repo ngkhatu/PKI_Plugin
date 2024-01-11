@@ -1,0 +1,212 @@
+Total Number of Sub Authorities: 42
+host: www.google.com
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: mail.google.com
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: accounts.google.com
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: ssl.google-analytics.com
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+
+host: accounts.youtube.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: portalsp.acs.ncsu.edu
+commonName: *.acs.ncsu.edu
+organization: *.acs.ncsu.edu
+organizationalUnit: Domain Control Validated
+
+host: shib.ncsu.edu
+commonName: shib.ncsu.edu
+organization: shib.ncsu.edu
+organizationalUnit: Domain Control Validated
+
+host: ssl.gstatic.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: lh3.googleusercontent.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: www.bankofamerica.com
+commonName: www.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+
+host: bankofamerica.tt.omtrdc.net
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+
+host: data.cmcore.com
+commonName: data.cmcore.com
+organization: Coremetrics, Inc.
+organizationalUnit: Operations
+
+host: fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: 1359940.fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: sofa.bankofamerica.com
+commonName: sofa.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: IMRA Cert Admin
+
+host: data.coremetrics.com
+commonName: *.coremetrics.com
+organization: IBM, Inc.
+organizationalUnit: Operations
+
+host: secure.bankofamerica.com
+commonName: secure.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+
+host: www.facebook.com
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+
+host: o.twimg.com
+commonName: *.twimg.com
+organization: Twitter
+organizationalUnit: Akamai SSL OV
+
+host: r.twimg.com
+commonName: r.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+
+host: login.yahoo.com
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+
+host: s.yimg.com
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: sb.scorecardresearch.com
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+
+host: csc.beap.bc.yahoo.com
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: ak1s.abmr.net
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+
+host: us.bc.yahoo.com
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: www.linkedin.com
+commonName: www.linkedin.com
+organization: LinkedIn Corporation
+organizationalUnit: Production Operations Group
+
+host: s1-s.licdn.com
+commonName: *.licdn.com
+organization: Linkedin Corporation
+organizationalUnit: Production Operations Group
+
+host: secure-us.imrworldwide.com
+commonName: *.imrworldwide.com
+organization: *.imrworldwide.com
+organizationalUnit: GT17759042
+
+host: secure.quantserve.com
+commonName: *.quantserve.com
+organization: Quantcast Corporation
+organizationalUnit: 
+
+host: pixel.quantserve.com
+commonName: *.quantserve.com
+organization: Quantcast Corporation
+organizationalUnit: 
+
+host: us.etrade.com
+commonName: us.etrade.com
+organization: ETRADE FINANCIAL CORPORATION
+organizationalUnit: Global Information Security1
+
+host: cdn.etrade.net
+commonName: cdn.etrade.net
+organization: ETRADE FINANCIAL CORPORATION
+organizationalUnit: Global Information Security
+
+host: r.turn.com
+commonName: r.turn.com
+organization: Turn Inc.
+organizationalUnit: r.turn.com
+
+host: www.googleadservices.com
+commonName: www.googleadservices.com
+organization: Google Inc
+organizationalUnit: 
+
+host: etrade.wsod.com
+commonName: *.wsod.com
+organization: Markit On Demand, Inc.
+organizationalUnit: 
+
+host: service.maxymiser.net
+commonName: *.maxymiser.net
+organization: Maxymiser Ltd
+organizationalUnit: IT Services
+
+host: googleads.g.doubleclick.net
+commonName: *.g.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: pclick.yahoo.com
+commonName: pclick.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: etrade.122.2o7.net
+commonName: *.122.2o7.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Adobe Marketing Cloud
+
+host: www.amazon.com
+commonName: www.amazon.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+
+host: images-na.ssl-images-amazon.com
+commonName: images-na.ssl-images-amazon.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+
+

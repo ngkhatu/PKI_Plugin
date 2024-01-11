@@ -1,0 +1,60 @@
+nikhil@nikhil-VirtualBox:~/Desktop/NCSU_Alice_Bob$ openssl genrsa -out NCSU_key_pair.pem 1024
+Generating RSA private key, 1024 bit long modulus
+........................++++++
+.....++++++
+e is 65537 (0x10001)
+nikhil@nikhil-VirtualBox:~/Desktop/NCSU_Alice_Bob$ openssl req -new -x509 -keyout NCSU_key_pair.pem -out NCSU_root_cert.pem
+Generating a 1024 bit RSA private key
+.......++++++
+...................++++++
+writing new private key to 'NCSU_key_pair.pem'
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:North Carolina
+Locality Name (eg, city) []:Raleigh
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:North Carolina State University
+Organizational Unit Name (eg, section) []:Computer Science
+Common Name (e.g. server FQDN or YOUR name) []:NCSU Engineering
+Email Address []:demo@ncsu.edu 
+nikhil@nikhil-VirtualBox:~/Desktop/NCSU_Alice_Bob$ openssl genrsa -out Alice_key_pair.pem 1024
+Generating RSA private key, 1024 bit long modulus
+..++++++
+...............................++++++
+e is 65537 (0x10001)
+nikhil@nikhil-VirtualBox:~/Desktop/NCSU_Alice_Bob$ openssl req -new -keyout Alice_key_pair.pem -out Alice_usercert-req.pem
+Generating a 1024 bit RSA private key
+.........++++++
+.++++++
+writing new private key to 'Alice_key_pair.pem'
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:California
+Locality Name (eg, city) []:San Jose
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:SJcompany Org
+Organizational Unit Name (eg, section) []:OrgUnit
+Common Name (e.g. server FQDN or YOUR name) []:Alice FQDN    
+Email Address []:alice@SJcompany.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:achallenge
+An optional company name []:
+

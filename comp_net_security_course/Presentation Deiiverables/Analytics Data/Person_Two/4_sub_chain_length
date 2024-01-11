@@ -1,0 +1,213 @@
+Largest CA Chain has 3 elements
+
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.acs.ncsu.edu
+organization: *.acs.ncsu.edu
+organizationalUnit: Domain Control Validated
+Chain Length: 3
+
+commonName: shib.ncsu.edu
+organization: shib.ncsu.edu
+organizationalUnit: Domain Control Validated
+Chain Length: 3
+
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: www.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+Chain Length: 3
+
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+Chain Length: 3
+
+commonName: data.cmcore.com
+organization: Coremetrics, Inc.
+organizationalUnit: Operations
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: sofa.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: IMRA Cert Admin
+Chain Length: 3
+
+commonName: *.coremetrics.com
+organization: IBM, Inc.
+organizationalUnit: Operations
+Chain Length: 3
+
+commonName: secure.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+Chain Length: 3
+
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.twimg.com
+organization: Twitter
+organizationalUnit: Akamai SSL OV
+Chain Length: 3
+
+commonName: r.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+Chain Length: 3
+
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+Chain Length: 3
+
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+Chain Length: 3
+
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: www.linkedin.com
+organization: LinkedIn Corporation
+organizationalUnit: Production Operations Group
+Chain Length: 3
+
+commonName: *.licdn.com
+organization: Linkedin Corporation
+organizationalUnit: Production Operations Group
+Chain Length: 3
+
+commonName: *.imrworldwide.com
+organization: *.imrworldwide.com
+organizationalUnit: GT17759042
+Chain Length: 3
+
+commonName: *.quantserve.com
+organization: Quantcast Corporation
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.quantserve.com
+organization: Quantcast Corporation
+organizationalUnit: 
+Chain Length: 3
+
+commonName: us.etrade.com
+organization: ETRADE FINANCIAL CORPORATION
+organizationalUnit: Global Information Security1
+Chain Length: 3
+
+commonName: cdn.etrade.net
+organization: ETRADE FINANCIAL CORPORATION
+organizationalUnit: Global Information Security
+Chain Length: 3
+
+commonName: r.turn.com
+organization: Turn Inc.
+organizationalUnit: r.turn.com
+Chain Length: 3
+
+commonName: www.googleadservices.com
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.wsod.com
+organization: Markit On Demand, Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: *.maxymiser.net
+organization: Maxymiser Ltd
+organizationalUnit: IT Services
+Chain Length: 3
+
+commonName: *.g.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+Chain Length: 3
+
+commonName: pclick.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+Chain Length: 3
+
+commonName: *.122.2o7.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Adobe Marketing Cloud
+Chain Length: 3
+
+commonName: www.amazon.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+Chain Length: 3
+
+commonName: images-na.ssl-images-amazon.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+Chain Length: 3
+
+

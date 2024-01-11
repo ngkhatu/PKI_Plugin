@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        title="Certificate Authorities">
+
+<script src="CertPatrol.js"/>
+<script src="CAlistGUI.js"/>
+
+
+<hbox align="center">
+	<description flex="1">Analyze your list of CAs here!</description>
+	<button label="Close" oncommand="close();"/>
+</hbox>
+
+<hbox>
+
+	<vbox>
+		<button label="Total # of Root CAs" command="CAdata_1-cmd"/>
+		<button label="Total # of Sub Authorities" command="CAdata_2-cmd"/>
+		<button label="Sub Authorities per Root CA" command="CAdata_3-cmd"/>
+		<button label="Sub Authority Chain Length" command="CAdata_4-cmd"/>
+	</vbox>
+	
+	<vbox flex="1" style="overflow:auto">
+		<description id = "output_text" style="white-space: pre-wrap;" width="200" height="400" editable="true"/>
+		<button label="Copy to Clipboard" command="CAdata_5-cmd"/>
+	</vbox>
+
+</hbox>
+
+
+<commandset id="CAdata-commandset">
+	<command id="CAdata_1-cmd" oncommand="dat_1(event);"/>
+	<command id="CAdata_2-cmd" oncommand="dat_2(event);"/>
+	<command id="CAdata_3-cmd" oncommand="dat_3(event);"/>
+	<command id="CAdata_4-cmd" oncommand="dat_4(event);"/>
+	<command id="CAdata_5-cmd" oncommand="dat_5(event);"/>
+</commandset>
+
+<script>
+	
+	
+	function dat_1(){
+		window.dump(numRootKeys);
+		document.getElementById('output_text').textContent = CAListGUI.printTotalRootCA();
+	}
+	
+	function dat_2(){
+		document.getElementById('output_text').textContent = CAListGUI.printTotalSubCA();
+	}
+	
+	function dat_3(){
+		document.getElementById('output_text').textContent = CAListGUI.printSubCAPerRoot();
+	}
+	function dat_4(){
+		document.getElementById('output_text').textContent = CAListGUI.printChainLengthData();
+	}
+	
+	function dat_5() {
+		const gClipboardHelper = Components.classes["@mozilla.org/widget/clipboardhelper;1"]
+                                   .getService(Components.interfaces.nsIClipboardHelper);
+		gClipboardHelper.copyString(document.getElementById('output_text').textContent);
+	}
+	
+</script>
+
+
+
+
+
+
+
+</window>

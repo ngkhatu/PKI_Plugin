@@ -1,0 +1,402 @@
+Total Number of Sub Authorities: 80
+host: www.dinersclubnorthamerica.com
+commonName: www.dinersclubnorthamerica.com
+organization: Diners Club International Ltd.
+organizationalUnit: AMS
+
+host: www.dinersclubus.com
+commonName: dinersclubcanada.com
+organization: Diners Club International Ltd.
+organizationalUnit: AMS
+
+host: csvtr12.dinersclubcanada.com
+commonName: csvtr12.dinersclubcanada.com
+organization: Diners Club International Ltd.
+organizationalUnit: ebusiness, Corporate Marketing
+
+host: www.bmo.com
+commonName: www.bmo.com
+organization: Bank of Montreal
+organizationalUnit: 
+
+host: www.google.com
+commonName: www.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: plusone.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: www.bankofamerica.com
+commonName: www.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: Network Infrastructure
+
+host: bankofamerica.tt.omtrdc.net
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+
+host: sofa.bankofamerica.com
+commonName: sofa.bankofamerica.com
+organization: Bank of America Corporation
+organizationalUnit: IMRA Cert Admin
+
+host: fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: 1359940.fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: www.thankyou.com
+commonName: www.thankyou.com
+organization: Citigroup Inc.
+organizationalUnit: Citi Cards Internet Services
+
+host: tyecho.epsilon.com
+commonName: TYECHO.EPSILON.COM
+organization: Epsilon Data Management, LLC
+organizationalUnit: 
+
+host: view.atdmt.com
+commonName: view.atdmt.com
+organization: 
+organizationalUnit: 
+
+host: metrics1.citibank.com
+commonName: metrics1.citibank.com
+organization: Citigroup Inc
+organizationalUnit: Citi Cards Internet Service
+
+host: secure.leadback.advertising.com
+commonName: secure.leadback.advertising.com
+organization: AOL Advertising, Inc
+organizationalUnit: IS
+
+host: s.amazon-adsystem.com
+commonName: s.amazon-adsystem.com
+organization: Amazon.com Inc.
+organizationalUnit: 
+
+host: online.citibank.com
+commonName: online.citibank.com
+organization: Citigroup Inc.
+organizationalUnit: Web Hosting Group
+
+host: mpsnare.iesnare.com
+commonName: mpsnare.iesnare.com
+organization: iovation, Inc.
+organizationalUnit: 
+
+host: ak1s.abmr.net
+commonName: *.abmr.net
+organization: Akamai Technologies
+organizationalUnit: Insight
+
+host: chat.online.citi.com
+commonName: chat.online.citi.com
+organization: Citigroup Inc.
+organizationalUnit: Citigroup Inc.
+
+host: r.turn.com
+commonName: r.turn.com
+organization: Turn Inc.
+organizationalUnit: r.turn.com
+
+host: secure2.homedepot.com
+commonName: secure2.homedepot.com
+organization: THE HOME DEPOT,INC.
+organizationalUnit: OnlineIT
+
+host: nexus.ensighten.com
+commonName: nexus.ensighten.com
+organization: Ensighten, LLC
+organizationalUnit: Terms of use at www.verisign.com/rpa (c)05
+
+host: sadmin.brightcove.com
+commonName: sadmin.brightcove.com
+organization: Brightcove Inc.
+organizationalUnit: Engineering
+
+host: cts-secure.channelintelligence.com
+commonName: cts-secure.channelintelligence.com
+organization: Channel Intelligence
+organizationalUnit: Information Technology
+
+host: 3518820.fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: swasc.homedepot.com
+commonName: swasc.homedepot.com
+organization: Home Depot
+organizationalUnit: eBusiness
+
+host: ssl.google-analytics.com
+commonName: ssl.google-analytics.com
+organization: Google Inc
+organizationalUnit: 
+
+host: sales.liveperson.net
+commonName: SALES.LIVEPERSON.NET
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+
+host: dnn506yrbagrg.cloudfront.net
+commonName: *.cloudfront.net
+organization: Amazon.com, Inc.
+organizationalUnit: 
+
+host: sr2.liveperson.net
+commonName: Sr2.liveperson.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+
+host: va.marketer.lpsnmedia.net
+commonName: va.marketer.lpsnmedia.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+
+host: va.content.lpsnmedia.net
+commonName: va.content.lpsnmedia.net
+organization: LivePerson, Inc.
+organizationalUnit: LivePerson, Inc.
+
+host: apis.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: audience.tapad.com
+commonName: *.tapad.com
+organization: Tapad, Inc.
+organizationalUnit: 
+
+host: ev.ads.pointroll.com
+commonName: *.pointroll.com
+organization: Pointroll Inc.
+organizationalUnit: IT
+
+host: analytics.twitter.com
+commonName: *.twitter.com
+organization: *.twitter.com
+organizationalUnit: GT57932074
+
+host: www.lowes.com
+commonName: www.lowes.com
+organization: Lowe's Companies Inc.
+organizationalUnit: 
+
+host: www7.lowes.com
+commonName: www7.lowes.com
+organization: Lowes Home Centers Inc
+organizationalUnit: Information Security
+
+host: lowes.tt.omtrdc.net
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+
+host: akamai.mathtag.com
+commonName: akamai.mathtag.com
+organization: Mediamath
+organizationalUnit: Mediamath
+
+host: bs.serving-sys.com
+commonName: bs.serving-sys.com
+organization: MediaMind Technologies Inc.
+organizationalUnit: OnlineIT
+
+host: news.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: ssl.gstatic.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: i.ytimg.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: nt2.ggpht.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: encrypted-tbn0.gstatic.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: nt3.ggpht.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: nt0.ggpht.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: lh5.googleusercontent.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: nt1.ggpht.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: clients1.google.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: www.youtube.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: s.ytimg.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: mail.google.com
+commonName: mail.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: accounts.google.com
+commonName: accounts.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: accounts.youtube.com
+commonName: *.google.com
+organization: Google Inc
+organizationalUnit: 
+
+host: www.facebook.com
+commonName: *.facebook.com
+organization: Facebook, Inc.
+organizationalUnit: 
+
+host: r.twimg.com
+commonName: r.twimg.com
+organization: Twitter, Inc.
+organizationalUnit: Twitter Security
+
+host: login.yahoo.com
+commonName: login.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: 
+
+host: s.yimg.com
+commonName: yui.yahooapis.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: sb.scorecardresearch.com
+commonName: *.scorecardresearch.com
+organization: TMRG
+organizationalUnit: OSE
+
+host: csc.beap.bc.yahoo.com
+commonName: csc.beap.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: us.bc.yahoo.com
+commonName: *.bc.yahoo.com
+organization: Yahoo! Inc.
+organizationalUnit: Yahoo
+
+host: c5.ah.yahoo.com
+commonName: c5.ah.yahoo.com
+organization: Yahoo  Inc.
+organizationalUnit: Yahoo
+
+host: www.delta.com
+commonName: www.delta.com
+organization: Delta Air Lines, Inc.
+organizationalUnit: Information Technology
+
+host: gtag.yieldoptimizer.com
+commonName: *.yieldoptimizer.com
+organization: *.yieldoptimizer.com
+organizationalUnit: Domain Control Validated
+
+host: content.delta.com
+commonName: content.delta.com
+organization: Delta Air Lines, Inc
+organizationalUnit: Information Technology
+
+host: deltaairlines.tt.omtrdc.net
+commonName: *.tt.omtrdc.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Omniture BU
+
+host: by.essl.optimost.com
+commonName: by.essl.optimost.com
+organization: Optimost LLC
+organizationalUnit: 
+
+host: smetrics.delta.com
+commonName: smetrics.delta.com
+organization: Delta Air Lines, Inc.
+organizationalUnit: Information Technology
+
+host: delta-www.baynote.net
+commonName: *.baynote.net
+organization: Baynote, Inc.
+organizationalUnit: 
+
+host: 383639.fls.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: static.doubleclick.net
+commonName: *.doubleclick.net
+organization: Google Inc
+organizationalUnit: 
+
+host: membership.usairways.com
+commonName: *.usairways.com
+organization: US Airways
+organizationalUnit: csmusairwayweb
+
+host: content.usairways.com
+commonName: content.usairways.com
+organization: US Airways
+organizationalUnit: Corporate headquarters
+
+host: tealium.hs.llnwd.net
+commonName: *.hs.llnwd.net
+organization: Limelight Networks
+organizationalUnit: 
+
+host: tpc.googlesyndication.com
+commonName: *.googleusercontent.com
+organization: Google Inc
+organizationalUnit: 
+
+host: usairways.112.2o7.net
+commonName: *.112.2o7.net
+organization: Adobe Systems Incorporated
+organizationalUnit: Adobe Marketing Cloud
+
+

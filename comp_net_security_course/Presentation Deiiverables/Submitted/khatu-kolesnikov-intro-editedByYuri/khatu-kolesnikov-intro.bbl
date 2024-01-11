@@ -1,0 +1,189 @@
+\begin{thebibliography}{10}
+
+\bibitem{agarwal2007phishing}
+N.~Agarwal, S.~Renfro, and A.~Bejar.
+\newblock Phishing forbidden.
+\newblock {\em Queue}, 5(5):28--32, 2007.
+
+\bibitem{biddle2009browser}
+R.~Biddle, P.~Van~Oorschot, A.~S. Patrick, J.~Sobey, and T.~Whalen.
+\newblock Browser interfaces and extended validation ssl certificates: an
+  empirical study.
+\newblock In {\em Proceedings of the 2009 ACM workshop on Cloud computing
+  security}, pages 19--30. ACM, 2009.
+
+\bibitem{chou2004client}
+N.~Chou, R.~Ledesma, Y.~Teraguchi, D.~Boneh, and J.~C. Mitchell.
+\newblock Client-side defense against web-based identity theft.
+\newblock In {\em 11th Annual Network and Distributed System Security Symposium
+  (NDSS’04)}. San Diego, USA, 2004.
+
+\bibitem{SSLobservatory}
+Defcon.
+\newblock {\em An Observatory for the SSLiverse}, volume~18, 2010.
+
+\bibitem{dhamija2006phishing}
+R.~Dhamija, J.~D. Tygar, and M.~Hearst.
+\newblock Why phishing works.
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  computing systems}, pages 581--590. ACM, 2006.
+
+\bibitem{topalovicShortLivedCerts}
+L.~H. C.~J. E.~Topalovic, B.~Saeta and D.~Boneh.
+\newblock Towards short lived certificates.
+\newblock In {\em IIEEE Oakland Web 2.0 Security and Privacy}, pages 1--6,
+  2012.
+
+\bibitem{ellison2000ten}
+C.~Ellison and B.~Schneier.
+\newblock Ten risks of pki: What you're not being told about public key
+  infrastructure.
+\newblock {\em Comput Secur J}, 16(1):1--7, 2000.
+
+\bibitem{hayesMasquarading}
+J.~Hayes.
+\newblock The problem with multiple roots in web browsers-certificate
+  masquerading.
+\newblock In {\em Enabling Technologies: Infrastructure for Collaborative
+  Enterprises, 1998. (WET ICE '98) Proceedings., Seventh IEEE International
+  Workshops on}, pages 306--311, Jun 1998.
+
+\bibitem{herzberg2000access}
+A.~Herzberg, Y.~Mass, J.~Mihaeli, D.~Naor, and Y.~Ravid.
+\newblock Access control meets public key infrastructure, or: Assigning roles
+  to strangers.
+\newblock In {\em Security and Privacy, 2000. S\&P 2000. Proceedings. 2000 IEEE
+  Symposium on}, pages 2--14. IEEE, 2000.
+
+\bibitem{huawei2009scheme}
+Z.~Huawei and L.~Ruixia.
+\newblock A scheme to improve security of ssl.
+\newblock In {\em Circuits, Communications and Systems, 2009. PACCS'09.
+  Pacific-Asia Conference on}, pages 401--404. IEEE, 2009.
+
+\bibitem{josang2000pki}
+A.~J{\o}sang, I.~Pedersen, and D.~Povey.
+\newblock Pki seeks a trusting relationship.
+\newblock In {\em Information Security and Privacy}, pages 191--205. Springer,
+  2000.
+
+\bibitem{joshiMitigatingMITM}
+Y.~Joshi, D.~Das, and S.~Saha.
+\newblock Mitigating man in the middle attack over secure sockets layer.
+\newblock In {\em Internet Multimedia Services Architecture and Applications
+  (IMSAA), 2009 IEEE International Conference on}, pages 1--5, Dec.
+
+\bibitem{joshiPhishguardPlugin}
+Y.~Joshi, S.~Saklikar, D.~Das, and S.~Saha.
+\newblock Phishguard: A browser plug-in for protection from phishing.
+\newblock In {\em Internet Multimedia Services Architecture and Applications,
+  2008. IMSAA 2008. 2nd International Conference on}, pages 1--6, Dec.
+
+\bibitem{kaufman2002network}
+C.~Kaufman, R.~Perlman, and M.~Speciner.
+\newblock {\em Network security: private communication in a public world}.
+\newblock Prentice Hall Press, 2002.
+
+\bibitem{kent1998evaluating}
+S.~Kent.
+\newblock Evaluating certification authority security.
+\newblock In {\em Aerospace Conference, 1998 IEEE}, volume~4, pages 319--327.
+  IEEE, 1998.
+
+\bibitem{kuhn2001introduction}
+D.~R. Kuhn, V.~C. Hu, W.~T. Polk, and S.-J. Chang.
+\newblock Introduction to public key technology and the federal pki
+  infrastructure.
+\newblock Technical report, DTIC Document, 2001.
+
+\bibitem{mahmood2006Plugin}
+O.~MahMood.
+\newblock Custom plugin - a solution to phishing and pharming attacks.
+\newblock In {\em Proceedings of the 2006 World Congress in Computer Science,
+  Computer Engineering, and Applied Computing}, pages 32--38. World Congress In
+  Computer Science, 2006.
+
+\bibitem{maurerShiningChrome}
+M.~Maurer, A.~Luca, and T.~Stockinger.
+\newblock Shiningchrome: Using web browser personas to enhance ssl certificate
+  visualization.
+\newblock In {\em Human-Computer Interaction}, pages 44--51, 2011.
+
+\bibitem{park2012web}
+H.~M. Park.
+\newblock The web accessibility crisis of the korea's electronic government:
+  Fatal consequences of the digital signature law and public key certificate.
+\newblock In {\em System Science (HICSS), 2012 45th Hawaii International
+  Conference on}, pages 2319--2328. IEEE, 2012.
+
+\bibitem{raffetseder2007building}
+T.~Raffetseder, E.~Kirda, and C.~Kruegel.
+\newblock Building anti-phishing browser plug-ins: An experience report.
+\newblock In {\em Proceedings of the Third International Workshop on Software
+  Engineering for Secure Systems}, page~6. IEEE Computer Society, 2007.
+
+\bibitem{roosaTrustDarknet}
+S.~Roosa and S.~Schultze.
+\newblock Trust darknet: Control and compromise in the internet and certificate
+  authority model.
+\newblock volume~PP, pages 1--1.
+
+\bibitem{ross2005strongerauthen}
+B.~Ross, C.~Jackson, N.~Miyake, D.~Boneh, and J.~Mitchell.
+\newblock Stronger password authentication using browser extensions.
+\newblock page~15. Stanford Crypto, 2005.
+
+\bibitem{sharifiVeriKey}
+M.~Sharifi, E.~Fink, and J.~Carbonell.
+\newblock Verikey: A dynamic certificate verification system for public key
+  exchanges.
+\newblock In {\em Detections of Intrusions and Malware, and Vulnerability
+  Assessment}, pages 44--63, Jul 2008.
+
+\bibitem{sharifiPersonalizedSecurity}
+M.~Sharifi, E.~Fink, and J.~Carbonell.
+\newblock Learning of personalized security settings.
+\newblock In {\em Systems Man and Cybernetics (SMC), 2010 IEEE International
+  Conference on}, pages 3428--3432, Oct.
+
+\bibitem{slagell2004pki}
+A.~J. Slagell and R.~Bonilla.
+\newblock Pki scalability issues.
+\newblock {\em arXiv preprint cs/0409018}, 2004.
+
+\bibitem{soghoian2012certified}
+C.~Soghoian and S.~Stamm.
+\newblock Certified lies: Detecting and defeating government interception
+  attacks against ssl (short paper).
+\newblock {\em Financial Cryptography and Data Security}, pages 250--259, 2012.
+
+\bibitem{upadhyayaPlugin}
+A.~Upadhyaya.
+\newblock Design of a plugin for a browser against phishing and spoofing
+  attacks.
+\newblock {\em World Journal of Science}, 2:30--33, 2012.
+
+\bibitem{wilson2008public}
+S.~Wilson.
+\newblock Public key superstructure.
+\newblock 2008.
+
+\bibitem{wu2006security}
+M.~Wu, R.~C. Miller, and S.~L. Garfinkel.
+\newblock Do security toolbars actually prevent phishing attacks?
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  computing systems}, pages 601--610. ACM, 2006.
+
+\bibitem{ye2005trusted}
+Z.~E. Ye, S.~Smith, and D.~Anthony.
+\newblock Trusted paths for browsers.
+\newblock {\em ACM Transactions on Information and System Security (TISSEC)},
+  8(2):153--186, 2005.
+
+\bibitem{zhang2010improved}
+M.~Zhang, X.~Zheng, S.~Lv, and Y.~Yu.
+\newblock Improved approach on modeling and reasoning about pki/wpki.
+\newblock In {\em Wireless Communications Networking and Mobile Computing
+  (WiCOM), 2010 6th International Conference on}, pages 1--4. IEEE, 2010.
+
+\end{thebibliography}

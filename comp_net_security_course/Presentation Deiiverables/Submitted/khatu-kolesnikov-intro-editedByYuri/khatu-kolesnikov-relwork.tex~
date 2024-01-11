@@ -1,0 +1,102 @@
+\documentclass[10pt,twocolumn,pdftex]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
+            linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{times}
+%\usepackage{listings}
+%\usepackage{fancyvrb}
+%\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+
+%\lstset{ % for our code environment
+%    language={},
+%    basicstyle=\ttfamily}
+%\let\code\lstinline
+
+\title{SSL Security in Browser plug-in: Managing the list of CAs}
+\author{Nikhil Khatu, Yuri Kolesnikov \\
+\url{{ngkhatu, ykolesn}@ncsu.edu}}
+\date{3/5/2013}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Area:
+Browser security issues in SSL due to CA trust
+
+Problem:
+There are many CAs, some could be compromised or originate from untrusted sources. 
+
+Solution:
+Maintaining a list in a browser plugin that asks the user if they would like to trust a particular CA.
+
+
+Developing a browser plugin to ask the user if they would like to trust a particular CA.  The list is stored in browser memory. 
+
+Methodology:
+Created a browser plugin to ask the user if they would like to trust a particular CA, thus building a user-specific list of CAs. 
+
+Results:
+The list of default trusted CAs in a browser is reduced and useability is not affected.
+
+Take Away:
+Browsers have many more default CAs than are actually required by the typical user. 
+Browsers trust more CAs than are needed.
+
+\end{abstract}
+
+\begin{Introduction}
+Area:
+Modern web brosers maintain a list of CAs... 
+
+Problem:
+
+Why is problem not solved:
+
+Proposed insight:
+In this paper...
+
+Contributions -- what will the reader learn?
+\end{Introduction}
+
+
+\newpage
+\hspace{1em}
+\newpage
+
+\section{Related Work}
+
+There are many works published on securing SSL in infrastructure. The Related works section is divided into the following sections: Phishing and Browser related User Vulnerabilities, PKI Trust Infrastructure, and SSL protocol Vulnerabilities.
+
+\subsection{PKI Trust Infrastructure}
+
+Public Key Infrastructures (PKI) depends on a reliable method of authentication.  One such method is used in the Secure Sockets Layer (SSL), where Certificate Authorities are used to verify a website's signature, and thus confirm the authenticity of the website providing the signature.  The Achilies heel of any remote system is the Man in the Middle Attack. On trusting CA roots; it is possible to pose as a MITM and insert a certificate signed by a different root CA, but still be trusted by the browser due to the browser trusting multiple roots. \cite{hayesMasquarading}  It is also possible to compromise a root CA, and thus make it sign many fraudulent child certificates. \cite{park2012web} One solution to the multiple CA root CAs can possibly be addressed by short lived certificates at the cost of performance. \cite{topalovicShortLivedCerts} Roosa et al studied the structural defects and lessons learned overthe lifetime of the CA trust model. \cite{roosaTrustDarknet} 
+
+The security of SSL enabled applications is heavily dependent on securing current Public Key Infrastructure and the trust of Certification Authorities (CA). Three basic PKI models include PKIX(x.509), SPKI, and PGP.\cite{josang2000pki}\cite{kent1998evaluating} The trust and reliance on a browser's CA database is a major point of failure, and a popular topic for research. \cite{kent1998evaluating}In Josang et al Trust Management in PKI is the exclusive focus to benefit from SSL security.\cite{josang2000pki}  Since the PKI is commercialized, the low barriers to entry leave the system vulnerable to new untrusted Certification Authorities entering the market.\cite{ellison2000ten} It is important for any party trusting a CA to analyze various properties of the Certificate; certificate type, security risks of the key holder, certificate and organizaiton of CA. \cite{zhang2010improved} Various models from Anarchical to Hierarchical have been proposed to better manage the infrastructure.\cite{kaufman2002network} While current PKI remains mostly pessimistic in regards to trusting commercial entities Wilson et al remains optimistic and even suggest building a "Superstructure" with existing mature PKI to improve utility and practicallity of Digital Certificates.\cite{wilson2008public} NIST provides documentation on current implementations.\cite{kuhn2001introduction} Slagell et al adapt existing PKI protocols to solve scalability issues  \cite{slagell2004pki}  Current research is also being done on the exchanging of signed certificates without the use of CAs. \cite{sharifiVeriKey}
+
+
+
+\subsection{Browser Vulnerabilities and Phishing}
+Even if CAs are secure, most novice users are susceptible to what is known as a Man In The Middle (MITM) Phishing attack where the attacker can display spoofed login forms to the user.  Therefore it is important to consider this style of attack and the presence of novice security users when designing a plugin to improve the browser's CA database.  Phishing is generally executed in an unsophisticated manner, many users do not make the effort to check things as simple as being at the correct URL before entering sensitive information.  \cite{dhamija2006phishing} \cite{raffetseder2007building} The “Yahoo! sign-in seal” allows users to personalize the image used during sign in which will be used as a security seal.\cite{agarwal2007phishing} Several solutions to phishing attacks in the form of browser plugins have been proposed.  Most early anti phishing plugins attempt to prevent the user from accessing a spoofed website through the confirmation of a website's certificate.  Once the certificate is confirmed, the user is clearly informed that they are on a legitimate website.   \cite{joshiPhishguardPlugin} \cite{biddle2009browser} \cite{mahmood2006Plugin} \cite{upadhyayaPlugin} \cite{maurerShiningChrome} \cite{ye2005trusted} Other plugins such as SpoofGuard analyze the HTML POST request from the user to determine the authenticity of a website.  SpoofGuard then displays a warning message when an invalid website is detected. \cite{chou2004client}
+ Most confirmation message related toolbars are ineffective due to the fact that most internet users do not understand phishing attacks, and do not comprehend how complex they can be.  Users simply fail to pay attention to even the most clear warnings \cite{wu2006security} A complex learning approach, similar to our more simple CA database learning plugin, was proposed by Sharifi et al.  \cite{sharifiPersonalizedSecurity} The system works by monitoring user habits such as ignoring certificate warnings.  The system will then either automatically choose to ignore such warnings, or prompt the user with a more thorough explanation of their risky behavior. 
+
+The next generation of phishing attacks will prove to be more sophisticated than current attacks strictly focused on collecting personal information.  Due to current SSL technology being a one-way, server to user, system, a MITM attacker can now authenticate credentials in real time and present a seemingly valid phishing site to the user.  Hashing of the user’s password with the website’s public key can be used to prevent these types of attacks. \cite{joshiMitigatingMITM}  A hashing plugin is originally described in PwdHash, where a browser plugin hashes the user’s password with the website’s domain name, thus making the password hashed password useless for other websites. \cite{ross2005strongerauthen}
+
+\subsection{SSL Vulnerabilities}
+
+PKI infrastructure heavily relies on the security of the SSL Application Layer protocol and handshaking used to trade public and session keys it worth mentioning that there are various studies on strengthing the protocol. SSL by itself is a secure protocol, when used in conjunction with PKI vulnerabilities are exposed. There is a proposal to authenticate the user to avoid MITM attacks. Since SSL security is usually one way (server to user) Herzberg et al. propose a system, TPL, in which a certificate authority authenticates the user. \cite{herzberg2000access} Another is a Scheme to improve the security of SSL - \cite{huawei2009scheme}\cite{soghoian2012certified}
+
+
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{papers}
+
+\end{document}

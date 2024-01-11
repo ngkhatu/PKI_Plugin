@@ -1,0 +1,5 @@
+sudo apt-get install texlive-latex-extra
+
+
+latexmk -pdf khatu-kolesnikov-relwork/khatu-kolesnikov-relwork.tex
+

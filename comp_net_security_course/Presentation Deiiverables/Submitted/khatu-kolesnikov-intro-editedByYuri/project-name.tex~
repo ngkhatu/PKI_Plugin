@@ -1,0 +1,68 @@
+\documentclass[10pt,twocolumn,pdftex]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
+            linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{times}
+%\usepackage{listings}
+%\usepackage{fancyvrb}
+%\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+
+%\lstset{ % for our code environment
+%    language={},
+%    basicstyle=\ttfamily}
+%\let\code\lstinline
+
+\title{SSL Security in Browser plug-in: Manage the list of CAs}
+\author{Nikhil Khatu, Yuri Kolesnikov \\
+\url{{ngkhatu, ykolesn}@ncsu.edu}}
+\date{3/5/2013}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Write a brief overview of your project idea here.
+\end{abstract}
+
+\newpage
+\hspace{1em}
+\newpage
+
+\section{Related Work}
+
+
+Certified lies: Detecting and defeating government interception attacks against ssl (short paper) - \cite{soghoian2012certified}
+Improved Approach on Modeling and Reasoning about PKI/WPKI - \cite{zhang2010improved}
+Ten risks of PKI: What you're not being told about public key infrastructure - \cite{ellison2000ten}
+The Web Accessibility Crisis of the Korea's Electronic Government: Fatal Consequences of the Digital Signature Law and Public Key Certificate - \cite{park2012web}
+Evaluating certification authority security - \cite{kent1998evaluating}
+Public Key Superstructure - \cite{wilson2008public}
+Introduction to public key technology and the federal PKI infrastructure - \cite{kuhn2001introduction}
+Finding the PKI needles in the Internet haystack - \cite{pala2010finding}
+PKI scalability issues - \cite{slagell2004pki}
+Trusted paths for browsers - \cite{ye2005trusted}
+PKI seeks a trusting relationship - \cite{josang2000pki}
+Why phishing works - \cite{dhamija2006phishing}
+Do security toolbars actually prevent phishing attacks? - \cite{wu2006security}
+Client-side defense against web-based identity theft - \cite{chou2004client}
+Browser interfaces and extended validation SSL certificates: an empirical study - \cite{biddle2009browser}
+Phishing forbidden - \cite{agarwal2007phishing}
+Building anti-phishing browser plug-ins: An experience report - \cite{raffetseder2007building}
+A Scheme to improve security of SSL - \cite{huawei2009scheme}
+Network security: private communication in a public world - \cite{kaufman2002network}
+Access control meets public key infrastructure, or: Assigning roles to strangers - \cite{herzberg2000access}
+
+
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{papers}
+
+\end{document}
